@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap");
+::-moz-selection {
+  background-color: #333;
+  color: #fff;
+}
+::selection {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand2 {
+  margin-left: 100%;
+}
+.navbar-brand2 img {
+  height: 6vh;
+  width: 10vw;
+}
+
+.navbar-brand img {
+  height: 6vh;
+  width: 14vw;
+}
+
+.nav-item {
+  padding: 0.1rem;
+}
+.nav-item .nav-link {
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.0000001rem;
+}
+
+.fa-heart-o {
+  font-weight: bolder;
+}
+
+.input-container {
+  position: relative;
+}
+
+.icon-left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #2c2c2c;
+}
+
+.icon-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: #2c2c2c;
+}
+
+.input-with-icon::-moz-placeholder {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.input-with-icon::placeholder {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sap {
+  font-family: PlayFair Display, serif;
+  font-size: 2.2rem;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.card {
+  flex: 0 0 calc(25% - 20px);
+  max-width: calc(25% - 20px);
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.slider-control {
+  transform: translateY(-50%);
+  height: 100%;
+  top: 50%;
+  transition-property: all;
+  transition-duration: 100ms;
+}
+
+.p11 {
+  font-family: Inter, sans-serif;
+}
+
+.p22 {
+  font-family: Inter, sans-serif;
+  opacity: 0.6;
+}
+
+.sappp {
+  font-family: Inter, sans-serif;
+}
+
+.cat {
+  font-family: Inter, sans-serif;
+}
+
+.dis {
+  z-index: 3;
+  position: absolute;
+}
+
+.to {
+  font-family: Inter, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #999;
+}
+
+.footer {
+  background-color: #f6f6f8;
+}
+
+.headingg .ph {
+  color: #f6f6f8;
+  border-bottom: #f6f6f8;
+  border-bottom-color: #f6f6f8;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.headingg .em {
+  color: #ccc;
+}
+
+.headingg2 {
+  display: none;
+}
+.headingg2 .ph {
+  color: #ccc;
+}
+.headingg2 .em {
+  color: #f6f6f8;
+  border-bottom: #f6f6f8;
+  border-bottom-color: #f6f6f8;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.input-container1 {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input-container1 * {
+  margin: 2px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.left-content img {
+  width: 20px;
+  height: 20px;
+  border-radius: 75%;
+}
+
+.left-content select {
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #646464;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.foo h6 {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+}
+.foo p {
+  font-family: Inter, sans-serif;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.foo p:hover {
+  opacity: 1;
+}
+
+.lii li {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.lii li:hover {
+  opacity: 1;
+}
+
+.accordion {
+  background-color: #f6f6f8;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+}
+.carousel-control-prev-icon {
+  width: 0.1rem;
+}
+.carousel-control-prev-icon:hover {
+  padding: 0 30px;
+}
+
+.carousel-control-next-icon {
+  width: 0.1rem;
+  height: 1rem;
+}
+.carousel-control-next-icon:hover {
+  padding: 0 30px;
+}
+
+.fa-chevron-up {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.over {
+  position: relative;
+  width: 100%;
+  /* Adjust the height as needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 75%;
+  width: 70%;
+  display: flex;
+  font-weight: bolder;
+  font-size: 11rem;
+  letter-spacing: -2px;
+  background: linear-gradient(to right, #CECECE, #dfdfdf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+  .overlay {
+    position: absolute;
+    top: 50%;
+    height: 75%;
+    width: 70%;
+    display: flex;
+    font-weight: bolder;
+    font-size: 9rem;
+    letter-spacing: -2px;
+    background: linear-gradient(to right, #CECECE, #dfdfdf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+  }
+}
+.card:hover {
+  z-index: 2;
+  box-shadow: 1px 7px 9px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+  text-align: start;
+  color: linear-gradient(to right, #CECECE, #dfdfdf);
+  left: 0;
+  font-family: Inter, sans-serif;
+  letter-spacing: -2px;
+}
+
+.right {
+  background-color: red;
+  right: 0;
+  width: 73%;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.fa-chevron-left {
+  width: 2rem;
+  height: 4.5rem;
+  padding: 0 30px;
+  background-color: rgba(221, 221, 221, 0.5803921569);
+}
+.fa-chevron-left:hover {
+  padding: 0 50px;
+}
+
+.fa-chevron-right {
+  width: 2rem;
+  height: 4.5rem;
+  padding: 0 30px;
+  background-color: rgba(221, 221, 221, 0.5803921569);
+}
+.fa-chevron-right:hover {
+  padding: 0 50px;
+}
+
+@media (max-width: 767.98px) {
+  .col-1 {
+    display: none;
+  }
+}
+.abc .card:hover {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.top-ten .card:hover {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.top-ten img:hover {
+  box-shadow: 1px 7px 9px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown11 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 2;
+  width: 100%;
+  font-family: Inter, sans-serif;
+}
+.dropdown11 h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.dropdown11 p {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.trigger:hover + .dropdown11 {
+  display: block;
+}
+
+.trigger:hover {
+  border-bottom: 2px black solid;
+}
+
+.d-foot h3 {
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.d-foot p {
+  font-family: Inter, sans-serif;
+  font-size: 0.9rem;
+  margin-top: 2.5rem;
+}/*# sourceMappingURL=main.css.map */
